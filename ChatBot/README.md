@@ -1,17 +1,44 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# 🤖 Kotlin Multiplatform Chatbot using Gemini API
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+A **Kotlin Multiplatform (KMP)** chatbot application that integrates **Google's Gemini API** for AI-powered conversational interactions. This project supports **Android and iOS**, leveraging **Compose Multiplatform** for a shared UI while allowing platform-specific implementations where necessary.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+---
 
-* `/shared` is for the code that will be shared between all targets in the project.
-  The most important subfolder is `commonMain`. If preferred, you can add code to the platform-specific folders here too.
+## 🚀 Features
 
+- ✅ **AI Chatbot** – Uses **Gemini API** for intelligent responses.
+- ✅ **Kotlin Multiplatform** – Runs on **Android** and **iOS** with shared logic.
+- ✅ **Compose Multiplatform** – Unified UI across platforms.
+- ✅ **Dependency Injection** – Uses **Koin** for scalable architecture.
+- ✅ **Asynchronous API Calls** – Powered by **Ktor Client**.
+- ✅ **State Management** – Implements **MVI pattern** for clean architecture.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+---
+## 🛠️ Technologies Used
+
+- 🔹 **Kotlin Multiplatform (KMP)** – Shared business logic across Android & iOS  
+- 🔹 **Compose Multiplatform** – Cross-platform UI  
+- 🔹 **Google Gemini API** – AI-powered chatbot integration  
+- 🔹 **Ktor Client** – HTTP client for API requests  
+- 🔹 **Koin** – Dependency injection  
+- 🔹 **FAISS** – Semantic search for AI-enhanced conversations  
+
+---
+## 📸 Demo Preview
+
+![Chatbot Demo](assets/demo.gif)
+## 🔗 References
+
+- [Kotlin Multiplatform Documentation](https://kotlinlang.org/docs/multiplatform.html)
+- [Google Gemini API](https://ai.google.dev/)
+- [JetBrains Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See `LICENSE` for details.
+
+---
+
+💡 **Feel free to contribute!** Fork the repo and submit a pull request. 🚀
