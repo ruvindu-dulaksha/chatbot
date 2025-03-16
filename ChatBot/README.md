@@ -26,7 +26,7 @@ A **Kotlin Multiplatform (KMP)** chatbot application that integrates **Google's 
 ---
 ## 📸 Demo Preview
 
-![Chatbot Demo](assets/demo.gif)
+![Chatbot Demo](ChatBot/IMG_3089-ezgif.com-video-to-gif-converter.gif)
 ## 🔗 References
 
 - [Kotlin Multiplatform Documentation](https://kotlinlang.org/docs/multiplatform.html)
